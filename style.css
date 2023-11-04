@@ -1,0 +1,38 @@
+@font-face {
+    font-family: PT Sans;
+    src: url(fonts/PT_Sans/PTSans-Bold.ttf);
+    font-weight: bold;
+  }
+
+@font-face {
+    font-family: PT Sans;
+    src: url(fonts/PT_Sans/PTSans-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: PT Sans;
+    src: url(fonts/PT_Sans/PTSans-Regular.ttf);
+    font-style: regular;
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(fonts/Rubik/Rubik-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(fonts/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+
+
+body {
+    background-color:  rgb(244,237,255) !important;
+}
+
+
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'Rubik', sans-serif; */
