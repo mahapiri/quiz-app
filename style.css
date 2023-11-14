@@ -88,6 +88,15 @@ body {
     padding: 0;
 }
 
+.card-main-body {
+    width: 80% !important;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .card-body {
     width: 100%;
     height: 100%;
@@ -106,6 +115,8 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    padding: 32px;
 }
 
 .card {

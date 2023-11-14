@@ -1,3 +1,64 @@
+let question = [
+    {
+        "question": "Wer hat HTML erfunden?",
+        "answer_1": "Robbie Williams",
+        "answer_2": "Lady Gaga",
+        "answer_3": "Tim Berners-Lee",
+        "answer_4": "Justin Bieber",
+        "right_answer": 3
+    },
+    {
+        "question": "Was ist die Bedeutung von HTML?",
+        "answer_1": "Hyper Text Makeup Language",
+        "answer_2": "Hyperlink and Text Markup Language",
+        "answer_3": "Hyper Text Markup Language",
+        "answer_4": "High Tech Markup Language",
+        "right_answer": 3
+    },
+    {
+        "question": "Welches HTML-Element wird verwendet, um einen Absatz zu definieren?",
+        "answer_1": "<p>",
+        "answer_2": "<paragraph>",
+        "answer_3": "<para>",
+        "answer_4": "<line>",
+        "right_answer": 1
+    },
+    {
+        "question": "Welches Attribut wird verwendet, um den Hintergrundfarbencode einer Seite festzulegen?",
+        "answer_1": "bgcolor",
+        "answer_2": "background-color",
+        "answer_3": "color",
+        "answer_4": "bg-color",
+        "right_answer": 1
+    },
+    {
+        "question": "Welches HTML-Element wird für die Definition einer Liste verwendet, bei der die Reihenfolge wichtig ist?",
+        "answer_1": "<ul>",
+        "answer_2": "<ol>",
+        "answer_3": "<li>",
+        "answer_4": "<dl>",
+        "right_answer": 2
+    },
+    {
+        "question": "Wie fügt man einen Zeilenumbruch in HTML ein?",
+        "answer_1": "<break>",
+        "answer_2": "<br>",
+        "answer_3": "<nl>",
+        "answer_4": "<lb>",
+        "right_answer": 2
+    },
+    {
+        "question": "Welches HTML-Element wird verwendet, um einen Hyperlink zu erstellen?",
+        "answer_1": "<link>",
+        "answer_2": "<a>",
+        "answer_3": "<hlink>",
+        "answer_4": "<url>",
+        "right_answer": 2
+    },
+];
+
+let currentQuestions = 0;
+
 function startHtml() {
     let content = document.getElementById('card');
     content.innerHTML = '';
@@ -10,38 +71,5 @@ function startHtml() {
 }
 
 function goHtml() {
-    let content = document.getElementById('card');
-    content.innerHTML = '';
-    content.innerHTML = /*html*/`
-        <h5 class="mb-16">Wer hat HTML erfunden?</h5>
-        <div>
-        <div class="card mb-2">
-        <div class="card-body">
-            This is some text within a card body.
-        </div>
-        </div>
-        <div class="card mb-2">
-        <div class="card-body">
-            This is some text within a card body.
-        </div>
-        </div>
-        <div class="card mb-2">
-        <div class="card-body">
-            This is some text within a card body.
-        </div>
-        </div>
-        <div class="card mb-2">
-        <div class="card-body">
-            This is some text within a card body.
-        </div>
-        </div>
-        </div>
-
-        <div class="question-footer">
-            <span>
-                <b>1</b> von <b>5</b> Fragen
-            </span>
-            <button type="button" class="btn btn-primary">Nächste Frage</button>
-        </div>
-    `
+ 
 }
