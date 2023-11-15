@@ -97,6 +97,10 @@ body {
     justify-content: space-between;
 }
 
+.card-main-body h5 {
+    padding-top: 64px !important;
+}
+
 .card-body {
     width: 100%;
     height: 100%;
@@ -123,6 +127,20 @@ body {
     width: 100%;
 }
 
+.full-width {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.bg-success, .bg-danger {
+    color: white !important;
+}
 
 /* font-family: 'PT Sans', sans-serif;
 font-family: 'Rubik', sans-serif; */
