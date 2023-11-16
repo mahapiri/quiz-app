@@ -94,7 +94,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .card-main-body h5 {
@@ -141,6 +141,35 @@ body {
 .bg-success, .bg-danger {
     color: white !important;
 }
+/* rgb(247,213,187) */
+.end-screen-html {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: rgb(247,213,187);
+    font-family: 'Rubik';
+    font-weight: bold;
+}
 
-/* font-family: 'PT Sans', sans-serif;
-font-family: 'Rubik', sans-serif; */
+.end-screen-html img {
+    height: 128px;
+    width: auto;
+}
+
+.progess-line {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+}
+
+.replay-button {
+    color: red;
+    cursor: pointer;
+}
